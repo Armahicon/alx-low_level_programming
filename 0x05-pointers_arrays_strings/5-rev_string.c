@@ -2,6 +2,7 @@
 
 /**
  * rev_string - reverse a given string
+ * @s: individual characters in given string
  *
  * Return: reversed string output
  */
