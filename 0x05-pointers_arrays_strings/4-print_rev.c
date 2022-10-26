@@ -3,7 +3,6 @@
 /**
  * print_rev - reverse the charcter in a string and prints them
  * @s: pointer character of string
- * @rev - variable to store reversed characters
  * Return: reversed string
  */
 void print_rev(char *s)
@@ -24,5 +23,5 @@ void print_rev(char *s)
 		j--;
 		_putchar(rev[index]);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
