@@ -8,13 +8,14 @@
  */
 void puts_half(char *str)
 {
-	int string = 0, hald_string;
+	int string = 0, half_string;
 
 	while (str[string] != '\0')
 	{
 		string++;
 	}
-	if (string + 1 % != '0')
+
+	if (string + 1 % 2 != '\0')
 	{
 		half_string = (string - 1) / 2;
 	}
@@ -29,5 +30,5 @@ void puts_half(char *str)
 	{
 		_putchar(str[string]);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
